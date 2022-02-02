@@ -5,10 +5,10 @@ function myFunction() {
     var x, text;
     x = document.getElementById("number").value;
 
-    if (isNaN(x) || x < 1 || x > 10) {
-        text = "Input not valid";
+    if (isNaN(x) || x < 6 || x > 16) {
+        text = "Input not valid :(";
     } else {
-        text = "Input OK";
+        text = "Input OKAY :)";
     }
     document.getElementById("sher").innerHTML = text;
 }
